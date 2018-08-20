@@ -94,28 +94,12 @@ setTimeout(function(){
 }, ms(mutetime));
 
 }
-if(cmd === `${prefix}Aviso`){
+if(cmd === `${prefix}AvisoParte2`){
 
-    message.guild.members.map(membro => membro .send("**🔔Aviso Da Administração H.Y Studios🔔**\n\nOs  meus amores, como voces podem ver temos uma radio na H.Y Studios e estamos dando oportunidades para quem quer fazer parte dessa grande familia linda,\nquem quiser ser locutor da radio do HY, vai ter que fazer a inscrição no link a baixo que vai aparecer, pois essas aulas são para preparar os locutores quem vai ser escalados para locutar na radio do site, as aulas vão ser praticas, obrigada a todos amo voces.\n\nhttps://goo.gl/forms/aKv4LcDTktcWqYyB2\n*INSCRIÇÕES ATÉ DIA 21/08/2018*") )
-    
+    message.guild.members.map(membro => membro .send("**🔔Aviso Da Administração H.Y Studios🔔**\n\nOlá gente então como falei que muitos alunos que não estão levando as aulas a serio com os\nprofessores e quem falta sem justificativa  aqui está o link de inscrição para a lista de espera de Dublagem.\n\nhttps://goo.gl/forms/0kQC9jho97ekEJap1") )
 return 
     
 }  
-if(cmd === `${prefix}AvisoEvento`){
-
-   let sEmbed2 = new Discord.RichEmbed()
-  .setColor("#5400ff")
-  .setTitle("~~Aviso Evento H.Y. Studios~~")
-  .addField( name="**[NOME DO EVENTO]**\n", "-----------------------------------------" )
-  .addField("\n[TITULO DE INICIO]\n\n[AVISO]","-----------------------------------------")
-  .addField("Convite Permanente Do Servidor:",url="https://discord.gg/qeSnRZf")
-  .setImage(url="https://media.discordapp.net/attachments/479376642490499092/479787865669107755/hy_new_logo_2.png?width=500&height=500")
-   message.guild.members.map(membro => membro .send(sEmbed2) )
-
-
-return 
-
-}
 });
 
 bot.login(config.token);
