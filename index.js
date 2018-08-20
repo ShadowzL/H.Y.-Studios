@@ -94,7 +94,7 @@ setTimeout(function(){
 }, ms(mutetime));
 
 }
-if(cmd === `${prefix}AvisoAdministração`){
+if(cmd === `${prefix}Aviso`){
 
     message.guild.members.map(membro => membro .send("**🔔Aviso Da Administração H.Y Studios🔔**\n\nOs  meus amores, como voces podem ver temos uma radio na H.Y Studios e estamos dando oportunidades para quem quer fazer parte dessa grande familia linda,\nquem quiser ser locutor da radio do HY, vai ter que fazer a inscrição no link a baixo que vai aparecer, pois essas aulas são para preparar os locutores quem vai ser escalados para locutar na radio do site, as aulas vão ser praticas, obrigada a todos amo voces.\n\nhttps://goo.gl/forms/aKv4LcDTktcWqYyB2\n*INSCRIÇÕES ATÉ DIA 21/08/2018*") )
     
