@@ -94,12 +94,6 @@ setTimeout(function(){
 }, ms(mutetime));
 
 }
-if(cmd === `${prefix}AvisoParte2`){
-
-    message.guild.members.map(membro => membro .send("**🔔Aviso Da Administração H.Y Studios🔔**\n\nOlá gente então como falei que muitos alunos que não estão levando as aulas a serio com os\nprofessores e quem falta sem justificativa  aqui está o link de inscrição para a lista de espera de Dublagem.\n\nhttps://goo.gl/forms/0kQC9jho97ekEJap1") )
-return 
-    
-}  
 });
 
 bot.login(config.token);
