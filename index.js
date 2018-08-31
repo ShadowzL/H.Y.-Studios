@@ -2,6 +2,7 @@ const config = require("./config.json");
 const Discord = require("discord.js");
 
 const client = new Discord.Client();
+client.login(process.env.token);
 
 client.on("ready", async () => {
     console.log(`${client.user.username} Estou Online = Funcionando`);
