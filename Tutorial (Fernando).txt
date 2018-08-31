@@ -1,0 +1,16 @@
+Discord: Fernando.#8362
+
+
+
+Primeiro De Tudo Instale o Node.js https://nodejs.org/en/download/
+
+1. Abra o Config Com Bloco De Notas E Coloque Sua Token 
+
+2. Como Obter a Token: https://www.youtube.com/watch?v=CAhDfAVIL34
+
+3. Coloque O Seu Bot em todos servidor que queira colocar SelfBot.
+
+4. Inicie Ele e pronto j� esta funcionando
+
+
+N�O USE A SUA PROPRIA TOKEN CRIE UMA CONTA FAKE.
