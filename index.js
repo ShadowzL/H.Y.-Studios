@@ -7,7 +7,7 @@ client.login(process.env.token);
 client.on("ready", async () => {
     console.log(`${client.user.username} Estou Online = Funcionando`);
   
-    client.user.setPresence({ game: { name: 'Naruto Online', type: 1, url: 'https://www.twitch.tv/a'} });
+    client.user.setPresence({ game: { name: 'Academia Ninja | Venha Conhecer!!!', type: 1, url: 'https://www.twitch.tv/a'} });
 
 
 });
