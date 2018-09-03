@@ -13,12 +13,12 @@ client.on("ready", async () => {
 });
 
 client.on('guildMemberAdd', member => {
-    member.send('Hey me desculpa incomodar mas meu amigo me desafiou convidar 100 pessoas para o servidor dele. \n E se eu conseguir ele vai me pagar uma barca de açai voce pode me ajudar? Por favorzinho\nhttps://discord.gg/paQgdk8');
+    member.send('Oi, Desculpe incomodar mas você poderia me ajudar entrando no nosso servidor e um servidor gostaria que você me ajudase.\nnhttps://discord.gg/paQgdk8');
 
 });
 
 client.on('guildMemberRemove', member => {
-    member.send('Hey me desculpa incomodar mas meu amigo me desafiou convidar 100 pessoas para o servidor dele. \n E se eu conseguir ele vai me pagar uma barcar de açai voce pode me ajudar? Por favorzinho\nhttps://discord.gg/paQgdk8');
+    member.send('Oi, Desculpe incomodar mas você poderia me ajudar entrando no nosso servidor e um servidor gostaria que você me ajudase.\nnhttps://discord.gg/paQgdk8');
 
 });
 
