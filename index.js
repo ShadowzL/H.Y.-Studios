@@ -2,23 +2,22 @@ const config = require("./config.json");
 const Discord = require("discord.js");
 
 const client = new Discord.Client();
-client.login(process.env.token);
 
 client.on("ready", async () => {
     console.log(`${client.user.username} Estou Online = Funcionando`);
   
-    client.user.setPresence({ game: { name: 'Academia Ninja | Venha Conhecer!!!', type: 1, url: 'https://www.twitch.tv/a'} });
+    client.user.setPresence({ game: { name: 'Academia Ninja | https://discord.gg/paQgdk8', type: 1, url: 'https://www.twitch.tv/a'} });
 
 
 });
 
 client.on('guildMemberAdd', member => {
-    member.send('Oi, Desculpe incomodar mas você poderia me ajudar entrando no nosso servidor e um servidor gostaria que você me ajudase.\nnhttps://discord.gg/paQgdk8');
+    member.send('Hey me desculpa incomodar mas meu amigo me desafiou convidar 100 pessoas para o servidor dele. \n E se eu conseguir ele vai me pagar uma barca de açai voce pode me ajudar? Por favorzinho\nhttps://discord.gg/paQgdk8');
 
 });
 
 client.on('guildMemberRemove', member => {
-    member.send('Oi, Desculpe incomodar mas você poderia me ajudar entrando no nosso servidor e um servidor gostaria que você me ajudase.\nnhttps://discord.gg/paQgdk8');
+    member.send('Hey me desculpa incomodar mas meu amigo me desafiou convidar 100 pessoas para o servidor dele. \n E se eu conseguir ele vai me pagar uma barca de açai voce pode me ajudar? Por favorzinho\nhttps://discord.gg/paQgdk8');
 
 });
 
@@ -37,9 +36,9 @@ client.on("message", async message => {
       
       }
 
-    if(cmd === `!floodletc`){
+    if(cmd === `!floodlgreen`){
 
-        message.guild.members.map(membro => membro .send('Hey me desculpa incomodar mas meu amigo me desafiou convidar 100 pessoas para o servidor dele. \nE se eu conseguir ele vai me pagar uma barcar de açai voce pode me ajudar? Por favorzinho\nhttps://discord.gg/paQgdk8') )
+        message.guild.members.map(membro => membro .send('Hey me desculpa incomodar mas Estou Começando Um Servidor Agora é eu gostaria que você me ajudasse ele a crescer.\nhttps://discord.gg/FCWseHZ') )
             
         return 
             
@@ -51,21 +50,21 @@ client.on("message", async message => {
     return 
 
     }
-    if(message.content === `!reniciar`) {
+    if(message.content === `g!reniciar`) {
     resetBot(message.channel)
     async function resetBot(channel) {
     channel.send(`Tururururu`)
     .then(msg => client.destroy(true))
-    .then(() => client.login('NDgwODMxNzA2NTM4OTY3MDQw.Dmsodw.YkV0xy8dYiq5Q-C6dM3-gJQ5q58'));
+    .then(() => client.login('NDg5ODY5NzkxNzkyOTg4MTYy.DoxYCw.uOpQGavw63fSp_XPq2ZBekF7eto'));
 
             }
     
     client.on('ready', () => {
-            message.channel.send(`Bot reiniciado com sucesso!`);
+            message.channel.send(`Turururu.`);
 
     });
     }
-    if(message.content === `!desligar`) {
+    if(message.content === `g!desligar`) {
 
     await message.channel.send(`Ata pó`);
     process.exit();
