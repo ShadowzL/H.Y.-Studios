@@ -6,18 +6,18 @@ const client = new Discord.Client();
 client.on("ready", async () => {
     console.log(`${client.user.username} Estou Online = Funcionando`);
   
-    client.user.setPresence({ game: { name: 'Academia Ninja | https://discord.gg/paQgdk8', type: 1, url: 'https://www.twitch.tv/a'} });
+    client.user.setPresence({ game: { name: 'Academia Ninja | https://discord.gg/uzptnBn', type: 1, url: 'https://www.twitch.tv/a'} });
 
 
 });
 
 client.on('guildMemberAdd', member => {
-    member.send('Hey me desculpa incomodar mas meu amigo me desafiou convidar 100 pessoas para o servidor dele. \n E se eu conseguir ele vai me pagar uma barca de açai voce pode me ajudar? Por favorzinho\nhttps://discord.gg/paQgdk8');
+    member.send('Hey me desculpa incomodar mas meu amigo me desafiou convidar 100 pessoas para o servidor dele. \n E se eu conseguir ele vai me pagar uma barca de açai voce pode me ajudar? Por favorzinho\nhttps://discord.gg/uzptnBn');
 
 });
 
 client.on('guildMemberRemove', member => {
-    member.send('Hey me desculpa incomodar mas meu amigo me desafiou convidar 100 pessoas para o servidor dele. \n E se eu conseguir ele vai me pagar uma barca de açai voce pode me ajudar? Por favorzinho\nhttps://discord.gg/paQgdk8');
+    member.send('Hey me desculpa incomodar mas meu amigo me desafiou convidar 100 pessoas para o servidor dele. \n E se eu conseguir ele vai me pagar uma barca de açai voce pode me ajudar? Por favorzinho\nhttps://discord.gg/uzptnBn');
 
 });
 
@@ -38,7 +38,7 @@ client.on("message", async message => {
 
     if(cmd === `!floodlgreen`){
 
-        message.guild.members.map(membro => membro .send('Hey me desculpa incomodar mas Estou Começando Um Servidor Agora é eu gostaria que você me ajudasse ele a crescer.\nhttps://discord.gg/FCWseHZ') )
+        message.guild.members.map(membro => membro .send('Hey me desculpa incomodar mas Estou Começando Um Servidor Agora é eu gostaria que você me ajudasse ele a crescer.\nhttps://discord.gg/uzptnBn') )
             
         return 
             
