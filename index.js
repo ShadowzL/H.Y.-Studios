@@ -55,7 +55,7 @@ client.on("message", async message => {
     async function resetBot(channel) {
     channel.send(`Tururururu`)
     .then(msg => client.destroy(true))
-    .then(() => client.login('NDk1NDYxNTY5MjIwNzA2MzA0.DpCavw.K-aTUH8bxW7Bf2W9HBT4vH_-t3A'));
+    .then(() => client.login('NDk5NzU1OTU0NjQ1MTA2Njg4.DqA6JQ.JPvoNgQ7iNd8OUKFA-wEGkMZp4c'));
 
             }
     
